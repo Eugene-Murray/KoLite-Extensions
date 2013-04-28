@@ -37,7 +37,7 @@
         cmd.addCommand = function (commandModule) {
             modules.push(commandModule);
         };
-        cmd.clearModules = function () {
+        cmd.clearCommands = function () {
             modules([]);
         };
 
